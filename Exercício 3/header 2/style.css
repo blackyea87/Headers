@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 1rem 2rem 1rem;
+    width: 100vw;
+    background-color: salmon;
+}
+a#logo{
+    display: flex;
+    width: 415px;
+    height: 50px;
+}
+img{
+    width: 70px;
+    height: 50px;
+}
+div#barra-de-pesquisa{
+    display: flex;
+    width: 415px;
+    height: 30px;
+}
+input#pesquisa {
+    width: 90%;
+    outline: none;
+    font-size: 16px;
+}
+button#botao{
+    width: 10%;
+    cursor: pointer;
+}
+ul#links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    width: 415px;
+    height: 15px;
+}
+a{
+    display: flex;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}

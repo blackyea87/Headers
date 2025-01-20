@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+header{
+    width: 100vw;
+    height: 8vh;
+    background-color: black;
+}
+ul#links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    width: 100%;
+    height: 100%;
+}
+a.link{
+    display: flex;
+    color: grey;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+img{
+    width: 400px;
+    height: 400px;
+}

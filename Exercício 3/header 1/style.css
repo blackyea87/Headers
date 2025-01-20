@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 1rem 2rem 1rem;
+    width: 100vw;
+    background-color: darkgoldenrod;
+}
+div#aaa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+a#logo{
+    display: flex;
+    width: 70px;
+    height: 50px;
+}
+img{
+    width: 70px;
+    height: 50px;
+}
+div#barra-de-pesquisa{
+    display: flex;
+    width: 415px;
+    height: 30px;
+}
+input#pesquisa {
+    width: 90%;
+    outline: none;
+    font-size: 16px;
+}
+button#botao{
+    width: 10%;
+    cursor: pointer;
+}
+ul#links{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    width: 415px;
+    height: 15px;
+}
+a{
+    display: flex;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+a.link1{
+    color: aqua;
+    background-color: black;
+}
+a.link1:hover{
+    color: red;
+    background-color: white;
+    transition: 0.4s;
+}
+a.link2{
+    color: lawngreen;
+    background-color: gray;
+}
+a.link2:hover{
+    color: yellow;
+    background-color: black;
+    transition: 0.4s;
+}
+a.link3{
+    color: purple;
+    background-color: gray;
+}
+a.link3:hover{
+    color: blue;
+    background-color: white;
+    transition: 0.4s;
+}
