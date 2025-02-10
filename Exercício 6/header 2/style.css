@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px 10px 10px;
+    width: 100vw;
+    height: 9vh;
+    background-color: black;
+    text-transform: uppercase;
+}
+div#logo{
+    width: 50px;
+    height: 50px;
+}
+div#logo img{
+    width: 50px;
+    height: 50px;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 600px;
+    height: auto;
+}
+ul a{
+    color: white;
+    text-decoration: none;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+img{
+    width: 35px;
+    height: 35px;
+}
+div#img1{
+    width: 35px;
+    height: 35px;
+    background-image: url(../img/Captura\ de\ tela\ 2024-03-16\ 203507.png);
+    background-size: cover;
+}
+.box:hover #img1{
+    background-image: url(../img/shell.png);
+}div#img2{
+    width: 35px;
+    height: 35px;
+    background-image: url(../img/Captura\ de\ tela\ 2024-04-19\ 210153.png);
+    background-size: cover;
+}
+.box:hover #img2{
+    background-image: url(../img/coredasantigas.png);
+}
+div#img3{
+    width: 35px;
+    height: 35px;
+    background-image: url(../img/Captura\ de\ tela\ 2024-12-17\ 191131.png);
+    background-size: cover;
+}
+.box:hover #img3{
+    background-image: url(../img/cuidadocomachara.png);
+}
